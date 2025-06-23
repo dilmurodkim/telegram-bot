@@ -7,7 +7,7 @@ import logging
 import os
 
 # TOKEN bu yerga qo'shiladi
-API_TOKEN = os.getenv("BOT_TOKEN") or "7752977498:AAE7b885o9hw10KcnJEDclLal1XiX9mGpLk"
+API_TOKEN = os.getenv("7752977498:AAE7b885o9hw10KcnJEDclLal1XiX9mGpLk") or "7752977498:AAE7b885o9hw10KcnJEDclLal1XiX9mGpLk"
 
 logging.basicConfig(level=logging.INFO)
 
